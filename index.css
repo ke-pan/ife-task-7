@@ -1,0 +1,31 @@
+.page {
+  min-width: 1280px;
+  margin: auto; }
+  .page .header {
+    height: 58px; }
+    .page .header > :first-child {
+      float: left;
+      margin-left: 59px;
+      padding-left: 42px;
+      font: 21px/58px "SimHei Regular", sans-serif;
+      color: #3a3a3a; }
+    .page .header .login {
+      float: right;
+      font: 14px/58px "Microsoft YaHei Regular", sans-serif;
+      color: #e7504d;
+      margin-right: 56px; }
+    .page .header > :last-child {
+      float: right;
+      font: 14px "Microsoft YaHei Regular", sans-serif;
+      color: #797b83; }
+    .page .header ul {
+      list-style: none;
+      margin: 0; }
+    .page .header li {
+      display: inline-block;
+      line-height: 58px;
+      margin: 0 23px; }
+    .page .header li.active {
+      color: #e7504d; }
+
+/*# sourceMappingURL=index.css.map */
