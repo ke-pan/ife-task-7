@@ -24,8 +24,12 @@
     .page .header li {
       display: inline-block;
       line-height: 58px;
-      margin: 0 23px; }
+      margin: 0 23px;
+      cursor: pointer; }
     .page .header li.active {
       color: #e7504d; }
+  .page .banner {
+    height: 690px;
+    position: relative; }
 
 /*# sourceMappingURL=index.css.map */
