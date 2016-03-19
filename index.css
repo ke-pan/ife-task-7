@@ -82,8 +82,73 @@
       width: 100%;
       margin: 40px 0;
       font: 54px "SimHei Regular", "SimHei", sans-serif;
-      color: #333;
+      color: #867e7a;
       text-align: center; }
+  .page .search {
+    height: 340px;
+    background: grey url("./images/map.jpg"); }
+    .page .search h1 {
+      width: 400px;
+      margin: auto;
+      padding: 53px 0 10px;
+      text-align: center;
+      color: white;
+      font: 21px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif; }
+    .page .search .line {
+      width: 30px;
+      margin: auto;
+      border-top: 2px white solid;
+      border-bottom: 1px white solid; }
+    .page .search p {
+      width: 600px;
+      margin: 20px auto 52px;
+      text-align: center;
+      color: white;
+      font: 12px/1 "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif; }
+    .page .search > :last-child {
+      width: 1028px;
+      margin: auto; }
+    .page .search .select {
+      position: relative;
+      float: left;
+      width: 222px;
+      height: 35px;
+      margin-right: 31px;
+      padding-left: 12px;
+      background: white;
+      font: 12px/35px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+      color: #a8aaab; }
+    .page .search .select.active {
+      width: 220px;
+      border: 1px solid #be4f48;
+      border-bottom: 0; }
+    .page .search ul {
+      position: absolute;
+      top: 35px;
+      left: -1px;
+      width: 232px;
+      margin: 0 0;
+      padding: 0 0 13px;
+      border: 1px solid #be4f48;
+      border-top: 0;
+      list-style: none;
+      background: #e3e3e4; }
+    .page .search li {
+      padding-left: 32px;
+      font: 12px/26px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+      color: #333; }
+    .page .search li.active {
+      background: #be4f48;
+      color: white; }
+    .page .search button {
+      width: 233px;
+      height: 35px;
+      border: 0;
+      padding: 0;
+      text-align: center;
+      background: #be4f48;
+      font: 14px/35px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+      color: white; }
 
 .clearfix:after {
   content: ".";
