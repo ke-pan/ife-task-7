@@ -70,5 +70,27 @@
       height: 51px;
       border-left: 1px solid #aba6a5;
       border-right: 1px solid #bcb8b6; }
+  .page .slogan {
+    height: 360px;
+    background: #ededec; }
+    .page .slogan img {
+      display: block;
+      width: 200px;
+      margin: auto;
+      padding-top: 90px; }
+    .page .slogan p {
+      width: 100%;
+      margin: 40px 0;
+      font: 54px "SimHei Regular", "SimHei", sans-serif;
+      color: #333;
+      text-align: center; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visability: hidden; }
 
 /*# sourceMappingURL=index.css.map */
