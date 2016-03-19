@@ -53,5 +53,22 @@
         text-align: center;
         background: #e7504d;
         font-size: 30px; }
+  .page .feat {
+    height: 250px; }
+    .page .feat p {
+      float: left;
+      padding: 132px 83px 0;
+      width: 153px;
+      font: 14px/18px "SimHei Regular", "SimHei", sans-serif;
+      color: #767777;
+      text-align: center; }
+    .page .feat p:first-child, .page .feat p:last-child {
+      width: 152px; }
+    .page .feat div {
+      margin-top: 132px;
+      float: left;
+      height: 51px;
+      border-left: 1px solid #aba6a5;
+      border-right: 1px solid #bcb8b6; }
 
 /*# sourceMappingURL=index.css.map */
