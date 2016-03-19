@@ -1,5 +1,5 @@
 .page {
-  min-width: 1280px;
+  max-width: 1280px;
   margin: auto; }
   .page .header {
     height: 58px; }
@@ -7,16 +7,16 @@
       float: left;
       margin-left: 59px;
       padding-left: 42px;
-      font: 21px/58px "SimHei Regular", sans-serif;
+      font: 21px/58px "SimHei Regular", "SimHei", sans-serif;
       color: #3a3a3a; }
     .page .header .login {
       float: right;
-      font: 14px/58px "Microsoft YaHei Regular", sans-serif;
+      font: 14px/58px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
       color: #e7504d;
       margin-right: 56px; }
     .page .header > :last-child {
       float: right;
-      font: 14px "Microsoft YaHei Regular", sans-serif;
+      font: 14px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
       color: #797b83; }
     .page .header ul {
       list-style: none;
@@ -30,6 +30,28 @@
       color: #e7504d; }
   .page .banner {
     height: 690px;
-    position: relative; }
+    background-image: url("./images/banner.jpg"); }
+    .page .banner div {
+      padding-left: 117px;
+      padding-top: 228px;
+      font-family: "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+      line-height: 1;
+      color: white; }
+      .page .banner div h1 {
+        font-size: 60px;
+        font-weight: lighter;
+        margin: 0 0 30px 0; }
+      .page .banner div p {
+        font-size: 21px;
+        line-height: 16px;
+        font-weight: lighter;
+        margin: 16px 0 0; }
+      .page .banner div button {
+        margin-top: 66px;
+        border: 0;
+        padding: 16px 100px;
+        text-align: center;
+        background: #e7504d;
+        font-size: 30px; }
 
 /*# sourceMappingURL=index.css.map */
