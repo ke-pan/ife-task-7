@@ -149,6 +149,34 @@
       background: #be4f48;
       font: 14px/35px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
       color: white; }
+  .page .activities {
+    height: 605px;
+    background: #f7f7f7; }
+    .page .activities > div {
+      float: left;
+      margin: 100px 36px 0 0;
+      width: 219px;
+      text-align: center; }
+      .page .activities > div div {
+        background: #fff;
+        border: 1px #e0dddd solid;
+        height: 336px; }
+    .page .activities > div:first-child {
+      margin-left: 148px; }
+    .page .activities h2 {
+      margin: 12px;
+      font: 14px "SimHei Regular", "SimHei";
+      color: #333; }
+    .page .activities .shanghai {
+      width: 220px; }
+      .page .activities .shanghai h2 {
+        margin: 0;
+        font: 21px "SimHei Regular", "SimHei";
+        word-spacing: 1.3em; }
+    .page .activities p {
+      margin: 8px 0;
+      font: 12px "SimHei Regular", "SimHei";
+      color: #968e8a; }
 
 .clearfix:after {
   content: ".";
