@@ -177,6 +177,101 @@
       margin: 8px 0;
       font: 12px "SimHei Regular", "SimHei";
       color: #968e8a; }
+  .page .grid {
+    height: 1086px; }
+    .page .grid > div {
+      float: left;
+      width: 425px;
+      height: 565px;
+      text-align: center; }
+    .page .grid > div.lower {
+      height: 521px; }
+    .page .grid > div:first-child {
+      width: 850px;
+      background: url("./images/pic7.jpg");
+      color: white; }
+      .page .grid > div:first-child h1 {
+        margin: 130px 0 0;
+        font: 49px/1 "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif; }
+      .page .grid > div:first-child h2 {
+        margin: 0;
+        font: 158px/1 "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif; }
+      .page .grid > div:first-child p {
+        margin: 0;
+        font: 22px/43px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif; }
+    .page .grid > div:nth-child(2) .title {
+      margin: 165px 0 0; }
+    .page .grid > div:nth-child(2) p {
+      width: 288px;
+      margin: 30px auto 50px;
+      text-align: left;
+      font: 12px/30px "SimSun Regular", "SimSun", sans-serif;
+      color: #aaa; }
+    .page .grid > div:nth-child(2) button {
+      width: 104px;
+      height: 31px;
+      padding: 0;
+      border: 1px solid #e46868;
+      background: #fff;
+      font: 12px/31px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+      color: #e25d60; }
+    .page .grid > div:nth-child(2) .dots {
+      margin: 25px auto;
+      width: 60px; }
+    .page .grid > div:nth-child(2) .dot {
+      float: left;
+      width: 8px;
+      height: 8px;
+      border-radius: 4px;
+      border: 1px solid #929292; }
+    .page .grid > div:nth-child(2) .dot:nth-child(2) {
+      margin: 0 15px; }
+    .page .grid > div:nth-child(2) .dot.active {
+      background: #929292; }
+    .page .grid > div:nth-child(3) {
+      background: #e7504d;
+      color: white; }
+      .page .grid > div:nth-child(3) h1 {
+        margin: 172px 0 0; }
+      .page .grid > div:nth-child(3) h2 {
+        margin: 0 0 25px; }
+      .page .grid > div:nth-child(3) h1, .page .grid > div:nth-child(3) h2 {
+        font: 21px/1.5 "SimHei Regular", "SimHei", sans-serif; }
+      .page .grid > div:nth-child(3) div {
+        width: 30px;
+        margin: 0 auto 25px;
+        border: 1px solid white; }
+      .page .grid > div:nth-child(3) button {
+        width: 167px;
+        height: 41px;
+        border: 1px white solid;
+        padding: 0;
+        background: #e7504d;
+        font: 21px/41px "SimHei Regular", "SimHei", sans-serif; }
+    .page .grid > div:nth-child(4) {
+      color: #333; }
+      .page .grid > div:nth-child(4) h1 {
+        margin: 172px 0 0; }
+      .page .grid > div:nth-child(4) h2 {
+        margin: 0 0 25px; }
+      .page .grid > div:nth-child(4) h1, .page .grid > div:nth-child(4) h2 {
+        font: 21px/1.5 "SimHei Regular", "SimHei", sans-serif; }
+      .page .grid > div:nth-child(4) div {
+        width: 30px;
+        margin: 0 auto 25px;
+        border: 1px solid #abaaaa; }
+      .page .grid > div:nth-child(4) button {
+        width: 167px;
+        height: 41px;
+        border: 1px #e7504d solid;
+        padding: 0;
+        background: #fff;
+        font: 21px/41px "SimHei Regular", "SimHei", sans-serif;
+        color: #e7504d; }
+    .page .grid > div:last-child {
+      background: url("./images/pic8.jpg"); }
+    .page .grid > div.right {
+      width: 430px; }
 
 .clearfix:after {
   content: ".";
