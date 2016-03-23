@@ -378,6 +378,17 @@
       font: 15px "Microsoft YaHei Regular", "Microsoft YaHei";
       word-spacing: 0.6em;
       vertical-align: -1px; }
+  .page footer {
+    height: 57px;
+    background: #303039;
+    color: white;
+    font: 12px "SimSun Regular", "SimSun"; }
+    .page footer :first-child {
+      float: left;
+      margin: 29px 100px 0; }
+    .page footer :last-child {
+      margin: 29px 40px 0;
+      float: right; }
 
 .clearfix:after {
   content: ".";
