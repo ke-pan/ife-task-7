@@ -349,6 +349,35 @@
     margin: 0 0 24px;
     font: 14px/1 "SimHei Regular", "SimHei";
     color: #231916; }
+  .page .contact {
+    background: #33363f;
+    color: white;
+    text-align: center; }
+    .page .contact h1 {
+      margin: auto;
+      padding: 90px 0 6px;
+      font: 21px "SimHei Regular", "SimHei"; }
+    .page .contact p {
+      width: 468px;
+      margin: auto;
+      font: 12px/18px "SimSun Regular", "SimSun"; }
+    .page .contact form {
+      margin-top: 30px; }
+    .page .contact input {
+      width: 430px;
+      height: 40px;
+      padding: 0 0 0 9px;
+      border: 1px solid #90888a; }
+    .page .contact button {
+      width: 80px;
+      height: 42px;
+      border: 0;
+      margin: 0 0 0 -4px;
+      padding: 0;
+      background: #696266;
+      font: 15px "Microsoft YaHei Regular", "Microsoft YaHei";
+      word-spacing: 0.6em;
+      vertical-align: -1px; }
 
 .clearfix:after {
   content: ".";
