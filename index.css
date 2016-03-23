@@ -272,6 +272,83 @@
       background: url("./images/pic8.jpg"); }
     .page .grid > div.right {
       width: 430px; }
+  .page .form h1 {
+    margin: 118px auto 0;
+    padding: 0;
+    font: 21px/1.5 "SimHei Regular", "SimHei", sans-serif;
+    color: #333;
+    text-align: center; }
+  .page .form > div:nth-child(2) {
+    width: 30px;
+    height: 2px;
+    margin: 0 auto 12px;
+    background: #e7504d;
+    border: 0; }
+  .page .form > p {
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+    color: #aaa;
+    text-align: center; }
+  .page .form > div:last-child {
+    height: 285px;
+    margin-top: 105px;
+    margin-bottom: 163px; }
+    .page .form > div:last-child > div {
+      float: left;
+      width: 362px;
+      margin-left: 138px; }
+    .page .form > div:last-child form {
+      float: left;
+      width: 780px; }
+      .page .form > div:last-child form div {
+        padding-left: 21px;
+        background: #ededee; }
+      .page .form > div:last-child form input {
+        margin: 0 14px 13px 0;
+        padding: 0 0 0 21px;
+        width: 290px;
+        height: 40px;
+        border: 0;
+        background: #ededee;
+        font: 12px "SimSun Regular", "SimSun"; }
+      .page .form > div:last-child form textarea {
+        width: 619px;
+        height: 110px;
+        padding: 10px 0 0 21px;
+        border: 0;
+        background: #ededee;
+        font: 12px "SimSun Regular", "SimSun"; }
+      .page .form > div:last-child form button {
+        margin-top: 10px;
+        width: 640px;
+        height: 40px;
+        background: #ededee;
+        border: 0;
+        font: 14px "SimHei Regular", "SimHei";
+        color: #333; }
+  .page .form section {
+    position: relative;
+    width: 290px;
+    height: 110px; }
+    .page .form section p {
+      font: 12px/21px "SimSun Regular", "SimSun";
+      color: #231916; }
+    .page .form section div {
+      font: 12px/1 "SimSun Regular", "SimSun";
+      position: absolute;
+      right: 0;
+      bottom: 20px; }
+  .page .form section:first-child {
+    height: 130px; }
+    .page .form section:first-child div {
+      bottom: 40px; }
+  .page .form section:last-child div {
+    bottom: 76px; }
+  .page .form h2 {
+    margin: 0 0 24px;
+    font: 14px/1 "SimHei Regular", "SimHei";
+    color: #231916; }
 
 .clearfix:after {
   content: ".";
