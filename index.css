@@ -152,6 +152,14 @@
   .page .activities {
     height: 605px;
     background: #f7f7f7; }
+    .page .activities .beijing .pic {
+      background: url("./images/pic1.jpg") 8px 12px no-repeat white; }
+    .page .activities .shanghai .pic {
+      background: url("./images/pic2.jpg") 8px 12px no-repeat white; }
+    .page .activities .shenzhen .pic {
+      background: url("./images/pic3.jpg") 8px 12px no-repeat white; }
+    .page .activities .hongkong .pic {
+      background: url("./images/pic4.jpg") 8px 12px no-repeat white; }
     .page .activities > div {
       float: left;
       margin: 100px 36px 0 0;
