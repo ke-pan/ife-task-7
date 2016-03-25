@@ -8,12 +8,16 @@
       margin-left: 59px;
       padding-left: 42px;
       font: 21px/58px "SimHei Regular", "SimHei", sans-serif;
-      color: #3a3a3a; }
+      color: #3a3a3a;
+      background: url("./images/sprite.png") 0 13px; }
     .page .header .login {
+      margin-left: 7px;
+      margin-right: 56px;
+      padding-left: 20px;
       float: right;
-      font: 14px/58px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
-      color: #e7504d;
-      margin-right: 56px; }
+      background: url("./images/sprite.png") -247px 19px no-repeat;
+      font: 14px/54px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
+      color: #e7504d; }
     .page .header > :last-child {
       float: right;
       font: 14px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
@@ -23,11 +27,13 @@
       margin: 0; }
     .page .header li {
       display: inline-block;
-      line-height: 58px;
-      margin: 0 23px;
+      line-height: 54px;
+      margin: 0 7px;
+      padding: 0 15px;
       cursor: pointer; }
     .page .header li.active {
-      color: #e7504d; }
+      color: #e7504d;
+      border-bottom: 4px solid #e7504d; }
   .page .banner {
     height: 690px;
     background-image: url("./images/banner.jpg"); }
@@ -56,12 +62,21 @@
   .page .feat {
     height: 250px; }
     .page .feat p {
+      margin: 0;
       float: left;
       padding: 132px 83px 0;
       width: 153px;
       font: 14px/18px "SimHei Regular", "SimHei", sans-serif;
       color: #767777;
       text-align: center; }
+    .page .feat p:first-child {
+      background: url("./images/feat1.png") no-repeat 145px 45px; }
+    .page .feat p:nth-child(3) {
+      background: url("./images/feat2.png") no-repeat 145px 45px; }
+    .page .feat p:nth-child(5) {
+      background: url("./images/feat3.png") no-repeat 145px 45px; }
+    .page .feat p:last-child {
+      background: url("./images/feat4.png") no-repeat 145px 45px; }
     .page .feat p:first-child, .page .feat p:last-child {
       width: 152px; }
     .page .feat div {
@@ -75,7 +90,6 @@
     background: #ededec; }
     .page .slogan img {
       display: block;
-      width: 200px;
       margin: auto;
       padding-top: 90px; }
     .page .slogan p {
@@ -115,7 +129,7 @@
       height: 35px;
       margin-right: 31px;
       padding-left: 12px;
-      background: white;
+      background: white url("./images/sprite.png") no-repeat -40px -40px;
       font: 12px/35px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
       color: #a8aaab; }
     .page .search .select.active {
@@ -138,7 +152,7 @@
       font: 12px/26px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif;
       color: #333; }
     .page .search li.active {
-      background: #be4f48;
+      background: #be4f48 url("./images/sprite.png") no-repeat -239px -174px;
       color: white; }
     .page .search button {
       width: 233px;
@@ -195,6 +209,7 @@
     .page .grid > div.lower {
       height: 521px; }
     .page .grid > div:first-child {
+      position: relative;
       width: 850px;
       background: url("./images/pic7.jpg");
       color: white; }
@@ -207,8 +222,19 @@
       .page .grid > div:first-child p {
         margin: 0;
         font: 22px/43px "Microsoft YaHei Regular", "Microsoft YaHei", sans-serif; }
+      .page .grid > div:first-child div {
+        position: absolute;
+        top: 268px;
+        right: 0;
+        border-top: 15px solid transparent;
+        border-right: 24px solid white;
+        border-bottom: 15px solid transparent;
+        border-left: 0; }
     .page .grid > div:nth-child(2) .title {
-      margin: 165px 0 0; }
+      margin: 165px auto 0;
+      width: 104px;
+      height: 20px;
+      background: url("./images/sprite.png") 0 -174px; }
     .page .grid > div:nth-child(2) p {
       width: 288px;
       margin: 30px auto 50px;
@@ -277,7 +303,15 @@
         font: 21px/41px "SimHei Regular", "SimHei", sans-serif;
         color: #e7504d; }
     .page .grid > div:last-child {
+      position: relative;
       background: url("./images/pic8.jpg"); }
+      .page .grid > div:last-child div {
+        position: absolute;
+        top: 244px;
+        border-left: 24px solid white;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 0; }
     .page .grid > div.right {
       width: 430px; }
   .page .form h1 {
@@ -343,10 +377,12 @@
       font: 12px/21px "SimSun Regular", "SimSun";
       color: #231916; }
     .page .form section div {
+      padding-left: 17px;
       font: 12px/1 "SimSun Regular", "SimSun";
       position: absolute;
       right: 0;
-      bottom: 20px; }
+      bottom: 20px;
+      background: url("./images/sprite.png") 0 -52px; }
   .page .form section:first-child {
     height: 130px; }
     .page .form section:first-child div {
@@ -360,7 +396,8 @@
   .page .contact {
     background: #33363f;
     color: white;
-    text-align: center; }
+    text-align: center;
+    overflow: auto; }
     .page .contact h1 {
       margin: auto;
       padding: 90px 0 6px;
@@ -386,6 +423,11 @@
       font: 15px "Microsoft YaHei Regular", "Microsoft YaHei";
       word-spacing: 0.6em;
       vertical-align: -1px; }
+    .page .contact .social-icons {
+      width: 184px;
+      height: 25px;
+      margin: 37px auto 72px;
+      background: url("./images/sprite.png") 0 -96px; }
   .page footer {
     height: 57px;
     background: #303039;
